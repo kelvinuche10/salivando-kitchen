@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #fff;
+}
+header {
+    height: 10vh;
+    /* background-color: black;
+     position: ;
+     background-position: fixed; */ 
+}
+.header_div1 {
+    height: 10vh;
+    background-color: #990000;
+    width: 100vw;
+    position: fixed;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header_button {
+    background-color: #388e3c;
+    margin-left: 90%;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 0.8rem;
+    border: #388e3c;
+    border-radius: 8px;
+    padding: 10px 10px;
+    position: fixed;
+}
+main {
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+}
+.header_div {
+    margin: auto;
+    width: 80%;
+}
+.header_div ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: #455a64;
+    font-size: 1.2rem;
+    opacity: 0.9;
+    padding: 8px 8px;
+    position: sticky;
+}
+main .line-1 {
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+    height: 1px;
+    background-color: #5d4c41;
+    opacity: 0.3;
+}
+main .line-2 {
+    margin: auto;
+    margin-top: 5px;
+    width: 100%;
+    height: 1px;
+    background-color: #5d4c41;
+    opacity: 0.3;
+}
+/* -----------------h1--------- */
+.eat {
+    width: 70%;
+    height: 80vh;
+    margin: auto;
+    background-image: url(rice.jpg);
+}
+.first-h1 {
+    font-size: 4rem;
+    color: #990000;
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation-name: appear;
+    animation-duration: 3s;
+}
+.p-eat {
+    font-size: 1rem;
+    color: #990000;
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 5px;
+    font-family: 'ephesis' , cursive;
+    animation-name: appear;
+    animation-duration: 3s;
+} 
+@keyframes appear {
+    0% {
+        opacity: 0;
+        margin-top: -50px;
+    }
+    50% {
+        opacity: 0;
+        margin-top: 0px;
+    }
+    100% {
+        opacity: 0.8;
+      
+    }
+ }
+ /* ---------------our-priority------------ */
+ main .line-3 {
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+    height: 1px;
+    background-color: #5d4c41;
+    opacity: 0.3;
+}
+.our_priorities {
+    border-radius: 8%;
+    margin-top: -20px;
+    display: inline-block;
+    padding: 8px 8px;
+    margin-left: 42%;
+    background-color: #37474f;
+    text-align: center;
+    color: #fff;
+    font-family: 'ephesis' , cursive;
+}
+.our-priority {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    box-shadow: 0 5px 10px 0px rgba(0,0,0,0.2);
+    padding: 5% 5%;
+    border-radius: 8px;
+}
+main .line-p {
+    margin: auto;
+    margin-top: 20px;
+    width: 1px;
+    height: 100%px;
+    background-color: #5d4c41;
+    opacity: 0.3;
+}     
+.our-p {
+    width: 30%;
+    color: #37474f;
+    line-height: 2;
+    font-size: 0.9rem;
+    text-align: left;
+    border: 10px;
+    border-color: #fce4ec;
+    border-radius: 8px;
+}
+/* ---------recipe---------- */
+.recipes {
+    border-radius: 8%;
+    margin-top: -20px;
+    display: inline-block;
+    padding: 8px 8px;
+    margin-left: 42%;
+    background-color: #37474f;
+    text-align: center;
+    color: #fff;
+    font-family: 'ephesis' , cursive;
+}
+#recipe {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: #990000;
+    font-family: 'ephesis' , cursive;
+}
+.recipes-pics {
+    display: grid;
+    grid-template-columns:  repeat(3,25%) ;
+    column-gap: 20px;
+    width: 100vw;
+    margin: auto;
+    margin-top: 30px;
+}
+.recipes-div {
+    margin-top: 30px;
+}
+.recipes-pics img {
+    width: 100%;
+    height: 350px;
+    border-radius: 8px;
+}
+.meal-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: normal;
+    font-size: 1.6rem;
+    color: #37474f;
+    font-size: normal;
+}
+.meal-name:hover {
+    font-size: 1.2rem;
+    color: #990000;
+}
+.line-r {
+    height: 1px;
+    background-color: #5d4c41;
+    width:100% ;
+    opacity: 0.3;
+    margin: auto;
+    margin-top: 10px;
+}
+.in-name {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    font-family: 'ephesis' , cursive;
+    color: #37474f;
+}
+
+/* ------------Online class  section ---------- */
+
+.online-class {
+    height: 80vh;
+    background-image:
+    url(online_class.jpg);
+     background-size: cover;
+    width: 60vw;
+    margin: auto;
+    margin-top: 20px;
+}
+.online_class {
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+    background-image:linear-gradient(to right,
+     rgba(255,255,255,0.72),rgba(255,255,255,1) );
+    background-size: cover;
+    padding: 10px 20px;
+}
+.o_c {
+    height: 2px;
+    background-color: #990000;
+    opacity: 0.5;
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+}
+.o_c1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #37474f;
+    width: 80%;
+    margin-top: 35px;
+}
+.o_c_ {
+    height: 1px;
+    background-color: #990000;
+    opacity: 0.5;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+.o_c2 {
+    margin-top: 35px;
+    color: #37474f;
+    width: 80%;
+    margin: auto;
+    margin-top: 35px;
+}
+.o_c_button{
+    margin-top: 35px;
+    margin-left: 20%;
+    height: 50px;
+    width: 70%;
+    font-size: 1.8rem;
+    background-color: #990000;
+    color: #fff;
+    border: none;
+}
+/* ---------newsleter section----- */
+.newsletter {
+    display: flex;
+    height: 80vh;
+    width: 70vw;
+    margin: auto;
+    margin-top: 100px;
+
+}
+ .last_sect {
+    width: 33.3%;
+    height: 100%; 
+
+}
+#nl {
+    background-color: #ff5252;
+}
+#store {
+    background-color: #37474f;
+}
+#blog {
+    background-image:linear-gradient(to right,
+    rgba(255,255,255,0.72),rgba(255,255,255,0.80) ),
+     url(blog-image.jpg);
+     background-size: cover;
+}
+.form {
+    display: block;
+    margin-top: 40px;
+}
+.form input  {
+    display: block;
+    width: 80%;
+    padding: 8px 8px;
+    font-size: 0.9rem;
+    font-style: italic;
+    background-color: #ff5252;
+    margin-top: 10px;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+.form button {
+    display: block;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    font-size: 1.2rem;
+    color: #ff5252;
+    background-color: #fff;
+    border: none;
+}
+.n_l1 {
+    color: white;
+}
+#n-l1 {
+    margin: auto;
+    margin-top: 40px;
+    width: 60%;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#n-l2 {
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 60%;
+    font-size: 1rem;
+    font-style: italic;
+}
+.blog {
+    color: #37474f;
+}
+#bl1 {
+    margin: auto;
+    margin-top: 40px;
+    width: 60%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-style: italic;
+}
+#bl2 {
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 80%;
+    font-size: 1rem;
+    font-style: italic;
+}
+.bl_button {
+    margin-top: 35px;
+    margin-left: 20%;
+    height: 50px;
+    width: 70%;
+    font-size: 1.8rem;
+    background-color: #37474f;
+    color: #fff;
+    border: none;
+}
+#st1 {
+    margin: auto;
+    margin-top: 40px;
+    width: 60%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-style: italic;
+}
+#st2 {
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 80%;
+    font-size: 1rem;
+    font-style: italic;
+    opacity: 0.7;
+}
+.st_button {
+    margin-top: 35px;
+    margin-left: 20%;
+    height: 50px;
+    width: 70%;
+    font-size: 1.8rem;
+    background-color:linear-gradient(to right,
+    rgba(255,255,255,0.80),rgba(255,255,255,1) ), ;
+    color:  #37474f;
+    border: none;
+    
+}
+.o_c_1 {
+    height: 1px;
+    background-color: #fff;
+    opacity: 0.5;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+.o_c_2 {
+    height: 1px;
+    background-color: #37474f;
+    opacity: 0.5;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+/* ----------footer------- */
+footer {
+    height: 40vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.90)
+    ,rgba(0,0,0,0.92)),
+    url(online-meal.jpg);
+    background-size: cover;
+    margin-top: 0px;
+    padding-top: 80px ;
+}
+.first_h2 {
+    font-size: 4rem;
+    color: #ffffff;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif;
+     margin: auto;
+}
+footer ul {
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    list-style: none;
+    color: #fff;
+    font-size: 0.9rem;
+    justify-content: space-around;
+    width: 50%;
+}
